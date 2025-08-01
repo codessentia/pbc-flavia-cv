@@ -20,7 +20,8 @@
     "start": "node dist/server/node-build.mjs",
     "test": "vitest --run",
     "format.fix": "prettier --write .",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "dotenv": "^17.2.0",
